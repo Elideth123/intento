@@ -16,3 +16,15 @@ Route::get('/', function () {
 });
 
 Route::get('/index','sistema@index');
+
+Route::get('/inicio', function () {
+    return view('inicio');
+});
+
+Route::get('/escuela', function () {
+    return view('escuela');
+});
+
+Route::get('/carreras', function () {
+    return view('carreras');
+});
